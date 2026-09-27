@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons Document</title>
+  </head>
+  <body>
+    <a href="page2.html" style="text-decoration: none">
+      <button>Page 2</button>
+    </a>
+
+    <button>Normal Button</button>
+    <br />
+    <button style="font-size: 25px; background-color: blue; color: white">
+      Blue Button
+    </button>
+    <br />
+    <button style="font-size: 25px; background-color: green; color: white">
+      Green Button
+    </button>
+    <br />
+    <button style="font-size: 25px; background-color: red; color: white">
+      Red Button
+    </button>
+    <br />
+    <button style="font-size: 25px; background-color: orange; color: white">
+      Orange Button
+    </button>
+    <br />
+    <button style="font-size: 25px; background-color: purple; color: white">
+      Purple Button
+    </button>
+    <br />
+    <button style="font-size: 25px; background-color: gray; color: white">
+      Gray Button
+    </button>
+    <br />
+    <button style="font-size: 25px; background-color: black; color: white">
+      Black Button
+    </button>
+
+    <br />
+    <br />
+    <br />
+
+    <button
+      onclick="doSomething()"
+      style="font-size: 25px; background-color: aliceblue"
+    >
+      Click Me
+    </button>
+
+    <p id="greeting">Hi</p>
+
+    <script>
+      function doSomething() {
+        document.getElementById("greeting").innerHTML = "Hello, World!";
+      }
+    </script>
+  </body>
+</html>
