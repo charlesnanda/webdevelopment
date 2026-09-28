@@ -1,0 +1,13 @@
+#greeting {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#greeting:hover {
+    background-color: lightgreen;
+    color: white;
+    
+}

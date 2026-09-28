@@ -1,0 +1,38 @@
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: hsl(60, 100%, 77%);
+}
+
+p::selection {
+    color: rgb(129, 209, 49);
+    background-color: rgb(2, 35, 35);
+}
+
+/* Add a symbol before each fruit */
+#fruit li::before {
+    /* content: "✔"; */
+}
+
+/* Add emojis after specific fruits */
+#apple::after {
+    content: "🍎";
+}
+
+#orange::after {
+    content: "🍊";
+}
+
+#banana::after {
+    content: "🍌";
+}
+
+/* Customize the list marker */
+#fruit li::marker {
+    content: "✔";
+    color: hsl(128, 84%, 37%);
+    font-size: 1.5em;
+}
