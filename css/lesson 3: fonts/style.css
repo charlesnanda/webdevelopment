@@ -1,0 +1,21 @@
+@font-face{
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+    font-family: Montserrat;
+}
+@font-face {
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    font-family: Roboto;
+}
+@font-face {
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+    font-family: Inter;
+}
+h1{
+    font-family: Montserrat, Roboto, Inter;
+}
+p{
+    font-family: "Roboto", "Inter";
+    font-size: 1.2em;
+    font-weight: blod;
+    font-style: italic;
+}
