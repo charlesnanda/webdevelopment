@@ -1,0 +1,25 @@
+.gallery {
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    width: 250px;
+    vertical-align: top;
+    transition: border-color 0.2s ease;
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.gallery:hover {
+    border-color: hsl(0, 0%, 20%);
+}
+
+/* or width: 100%, height: auto*/
+.gallery img {
+    width: 250px;
+    height: 252px;
+    display: block;
+}

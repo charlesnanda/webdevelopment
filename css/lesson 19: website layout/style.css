@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: hsl(210, 10%, 86%);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: hsl(210, 10%, 15%);
+    height: 50px;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    width: 100%;
+}
+
+/* Columns */
+aside {
+    width: 40%;
+    float: left;
+    padding: 12px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 15px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 15px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .aside,
+    .section,
+    .article {
+        width: 100%;
+    }
+}
